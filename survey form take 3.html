@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey-Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="C:\Users\DELL\Desktop\guvi\.star.css" />
+</head>
+
+<body>
+    <div class="container" style="border: solid 1px;">
+        <div class="container-fluid">
+            <label for="a" style="color: black; font-weight: bold">Name<span style="color: red">*</span></label
+        >
+        <div class="row g-3" id="a">
+          <div class="col-6 col-sm-3" style="width: 22%">
+            <input type="text" id="first" class="form-control" style="width:100%"/>
+            <label for="first" style="color: black">First</label>
+        </div>
+        <div class="col-6 col-sm-3" style="width: 22%">
+            <input type="text" id="first1" class="form-control" style="width:100% " />
+            <label for="first1" style="color: black">Last</label>
+        </div>
+    </div>
+    </div>
+
+    <div class="container-fluid">
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label" style="font-weight: bold">Email<span style="color: red">*</span>
+            </label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" style="width: 43%;" />
+            </div>
+        </form>
+    </div>
+
+    <div class="container-fluid">
+        <label for="star-widget"><span style="color: black; font-weight: bold"
+            >Your Experience<span style="color: red; font-weight: bold">*</span></span
+          ></label>
+        <div class="star-widget">
+            <input style="display: none;" type="radio" name="rate" id="rate-5" />
+            <label for="rate-5" class="fas fa-star"></label>
+            <input style="display: none" type="radio" name="rate" id="rate-4" />
+            <label for="rate-4" class="fas fa-star"></label>
+            <input style="display: none" type="radio" name="rate" id="rate-3" />
+            <label for="rate-3" class="fas fa-star"></label>
+            <input style="display: none" type="radio" name="rate" id="rate-2" />
+            <label for="rate-2" class="fas fa-star"></label>
+            <input style="display: none" type="radio" name="rate" id="rate-1" />
+            <label for="rate-1" class="fas fa-star"></label>
+        </div>
+        <label for="star-widget"><span style="color: black;" >Overall, how would you rate your experience with us?</label>
+    </div>
+
+    <div class="container-fluid" style="margin-top: 2%;">
+        <div class="row">
+            <div class="col" style="font-weight: bold;">How Satisfied are you with<span style="color: red;">*</span></div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col" style="font-weight: bold;">
+                <blank></blank>
+            </div>
+            <div class="col">Very Unsatisfied</div>
+            <div class="col">Unsatisfied</div>
+            <div class="col">Neutral</div>
+            <div class="col">Satisfied</div>
+            <div class="col">Very Satisfied</div>
+        </div>
+
+        <div class="row" style="background-color: rgb(233, 227, 227)">
+            <div class="col">Purchase</div>
+            <div class="col"><input type="radio" name="a" /></div>
+            <div class="col"><input type="radio" name="a" /></div>
+            <div class="col"><input type="radio" name="a" /></div>
+            <div class="col"><input type="radio" name="a" /></div>
+            <div class="col"><input type="radio" name="a" /></div>
+        </div>
+
+        <div class="row">
+            <div class="col">Service</div>
+            <div class="col"><input type="radio" name="ab" /></div>
+            <div class="col"><input type="radio" name="ab" /></div>
+            <div class="col"><input type="radio" name="ab" /></div>
+            <div class="col"><input type="radio" name="ab" /></div>
+            <div class="col"><input type="radio" name="ab" /></div>
+        </div>
+
+        <div class="row" style="background-color: rgb(233, 227, 227)">
+            <div class="col">Company Overall</div>
+            <div class="col"><input type="radio" name="ab" /></div>
+            <div class="col"><input type="radio" name="ab" /></div>
+            <div class="col"><input type="radio" name="ab" /></div>
+            <div class="col"><input type="radio" name="ab" /></div>
+            <div class="col"><input type="radio" name="ab" /></div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="margin-top: 2%;">
+        <div class="row">
+            <div class="col" style="font-weight: bold;">How likely are you to<span style="color: red;">*</span></div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col" style="font-weight: bold;">
+                <blank></blank>
+            </div>
+            <div class="col">Very Unlikely</div>
+            <div class="col"> Unlikely</div>
+            <div class="col">Neutral</div>
+            <div class="col">Likely</div>
+            <div class="col">Very Likely</div>
+        </div>
+
+        <div class="row" style="background-color: rgb(233, 227, 227)">
+            <div class="col">Buy from us again</div>
+            <div class="col"><input type="radio" name="a1" /></div>
+            <div class="col"><input type="radio" name="a1" /></div>
+            <div class="col"><input type="radio" name="a1" /></div>
+            <div class="col"><input type="radio" name="a1" /></div>
+            <div class="col"><input type="radio" name="a1" /></div>
+        </div>
+
+        <div class="row">
+            <div class="col">Recommend our products to others</div>
+            <div class="col"><input type="radio" name="ab1" /></div>
+            <div class="col"><input type="radio" name="ab1" /></div>
+            <div class="col"><input type="radio" name="ab1" /></div>
+            <div class="col"><input type="radio" name="ab1" /></div>
+            <div class="col"><input type="radio" name="ab1" /></div>
+        </div>
+
+        <div class="row" style="background-color: rgb(233, 227, 227)">
+            <div class="col">Recommend our company to others</div>
+            <div class="col"><input type="radio" name="ab" /></div>
+            <div class="col"><input type="radio" name="ab" /></div>
+            <div class="col"><input type="radio" name="ab" /></div>
+            <div class="col"><input type="radio" name="ab" /></div>
+            <div class="col"><input type="radio" name="ab" /></div>
+        </div>
+    </div>
+
+    <div class="cointainer" style="margin-top: 2%;">
+        <label for="form-control" style="font-weight: bold;">Additional comments or suggestions</label>
+        <input type="text" class="form-control" style="padding-bottom: 8%;" />
+    </div>
+
+    <div class="cointainer" style="margin-top: 1%;">
+        <input type="submit" />
+    </div>
+
+
+
+
+    </div>
+</body>
+
+</html>
